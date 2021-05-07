@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login-Scom</title>
+<link rel="stylesheet" href="CSS/style.css">
+<script src="https://kit.fontawesome.com/3404f80eac.js" crossorigin="anonymous"></script>
+	
+</head>
+
+<body bgcolor="">
+	<div class="container">
+		<div class="content first-content">
+			<div class="first-column">
+				<h2 class="title-primario">Aresta Arquitetura</h2>
+				<h2 class="title-primario">Bem Vindo, cliente!</h2>
+				<p class="description"> Por favor entre com o login</p>
+				<form class="form"  action="MetodoPost/MetodoPost.php"  method="post">
+				<div>
+					<i class="fas fa-envelope-open-text"></i>
+					<input name="email" type="e-mail" placeholder ="E-mail">
+				</div>
+				<div>
+					<i class="fas fa-key"></i>
+					<input name="senha" type="password" placeholder ="Senha">
+				</div>
+				
+				<button type="submit" class="btn">Entrar</button>
+				</form>
+		</div>
+		<div class="second-column">
+			<h2 class="title title-second">Criar conta</h2>
+			<div class="social-media">
+				<ul class="list-social-media">
+					<li class="item-social-media">
+						<a href="#"><i class="fab fa-facebook"></i></a>
+					</li>
+					<li 
+						class="item-social-media">
+						<a href="#"><i class="fab fa-twitter"></i></a>
+					</li>
+					<li
+						class="item-social-media">
+						<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					</li>
+				</ul>	
+		</div><!-- Midia social-->
+			<p class="description">Ou entre com seus dados para cadastrar</p>
+			<form class="form"  action="adicionar.php"   method="post"> <!-- cria o formulario de registro-->
+				
+				
+				<button   class="btn btn-primary">Cadastrar</button>
+				</form>
+		</div><!--segunda coluna-->
+		</div>
+	</div>
+</body>
+</html>

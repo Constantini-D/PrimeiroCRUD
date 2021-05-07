@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/3404f80eac.js" crossorigin="anonymous"></script>
+	<script language="JavaScript">
+		
+	function multiplyBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        
+        document.getElementById("result").innerHTML = num1 * 40;
+}
+
+	</script>
+<meta charset="utf-8">
+<title>Orcamento</title>
+	<link rel="stylesheet" href="CSS/style.css" >
+</head>
+<header>
+	<div class= "first-column">
+		<body>
+			<form>
+				<i class="fas fa-tape"></i>
+Tamanho do seu Projeto(m²):
+				<input type="text" id="firstNumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="Fazer orçamento" placeholder ="metros quadrados" />
+
+			</form>
+<p>O valor APROXIMADO em reais do seu projeto é:  <span id = "result" ></span>  <br>
+</p>
+	<p> Entre em contato com a gente pela barra "contato" da pagina anterior</p>
+		</body>
+	</div>
+	</header>
+</html>
